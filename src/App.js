@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="flex flex-col items-center text-white bg-white dark:bg-zinc-800 bg-light-900 ">
+        <h1 className="text-6xl text-black dark:text-white">This is a test for electron </h1>
+        <button type="button">press me to do nothing</button> 
+      </div>
+    
   );
 }
 
